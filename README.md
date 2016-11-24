@@ -114,14 +114,14 @@ the ControlSUITE materials.
   - Random wait state = 2
   - OTP wait state    = 2
   
-  See [this e2e thread](1) for how to rebuild the library after changes are made.
+  See [this e2e thread][1] for how to rebuild the library after changes are made.
   
 
  - The device driver header files do not correctly include the types used for 
  their function parameters. Include `bspfix.h` **_before_** any device driver 
  header includes to remedy this; it defines `uint8_t` and `bool_t`. 
  
- See [this e2e thread](2) for more information.
+ See [this e2e thread][2] for more information.
  
  
  ###Ramfuncs Locations
