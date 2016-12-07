@@ -50,13 +50,6 @@ the ControlSUITE materials.
   - window-3
     - Disassembly
     - Memory Browser
-    
- - test    
-   - test
-     - test
-       - test1
-       - test2
-       - test3
        
 ##Preferences
  - General:
