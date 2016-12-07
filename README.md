@@ -170,3 +170,4 @@ the ControlSUITE materials.
 
 [1]: https://e2e.ti.com/support/microcontrollers/c2000/f/171/t/557285 "e2e thread"
 [2]: https://e2e.ti.com/support/microcontrollers/c2000/f/171/t/557285 "e2e thread"
+
