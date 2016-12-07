@@ -15,87 +15,89 @@ the ControlSUITE materials.
 ##Perspectives
 ####CCS Edit
  - left-side:
-  - Project Explorer
-  - Target Configurations
-  - Include Browser
+   - Project Explorer
+   - Target Configurations
+   - Include Browser
  - right-side:
-  - windows-1:
-   - Search (new)
-   - Progress
+   - windows-1:
+     - Search (new)
+     - Progress
   - window-2:
-   - Problems
-   - Breakpoints
-   - Tasks
-   - Memory Allocation
-   - Advice
-   - Console
+    - Problems
+    - Breakpoints
+    - Tasks
+    - Memory Allocation
+    - Advice
+    - Console
   
 ####CCS Debug
  - left-side:
-  - Project Explorer
-  - Target Configurations
-  - Include Browser
+   - Project Explorer
+   - Target Configurations
+   - Include Browser
  - right-side:
-  - window-1:
-   - Debug
-   - Problems
-   - Memory Allocation
-   - Tasks
-   - Advice
+   - window-1:
+     - Debug
+     - Problems
+     - Memory Allocation
+     - Tasks
+     - Advice
   - window-2
-   - Breakpoints
-   - Variables
-   - Expressions
-   - Registers
+    - Breakpoints
+    - Variables
+    - Expressions
+    - Registers
   - window-3
-   - Disassembly
-   - Memory Browser
+    - Disassembly
+    - Memory Browser
     
 ##Preferences
  - General:
-  - Appearance:
-   - Theme: Dark
-   - Colors and Fonts:
-	- Match highlight background color: RGB(80, 97, 103)
+   - Appearance:
+     - Theme: Dark
+     - Colors and Fonts:
+       - Match highlight background color: RGB(80, 97, 103)
+       - Ignored Resource (Foreground): RGB(128, 128, 128)
+       - Uncommited Change (Foreground): RGB(221, 221, 221)
   - Editors:
-   - Text Editors:
-    - Insert spaces for tabs: true
-	- show print margin: true
-    - Appearance color options:
-	 - Current line highlight: RGB(56, 56, 56)
-	 - Print margin: RGB(63, 65, 68)
-	 - Selection foreground color: RGB(168, 179, 179)
-	 - Selection background color: RGB(0, 0, 0)
-	 - Background color: RGB(32, 32, 32)
-	- Accessibility:
-	 - Use saturated colors in overview ruler: true
-	- Annotations:
-	 - C/C++ Occurances: RGB(64, 0, 64)
-	 - C/C++ Write Occurances: RGB(128, 0, 255)
-	 - Search Results: RGB(83, 58, 88)
-	- Spelling:
-	 - Platform Dictionary: English (United Kingdom)
-	 - Encoding: Default (UTF-8)
+    - Text Editors:
+      - Insert spaces for tabs: true
+        - show print margin: true
+      - Appearance color options:
+        - Current line highlight: RGB(56, 56, 56)
+        - Print margin: RGB(63, 65, 68)
+        - Selection foreground color: RGB(168, 179, 179)
+        - Selection background color: RGB(0, 0, 0)
+        - Background color: RGB(32, 32, 32)
+      - Accessibility:
+        - Use saturated colors in overview ruler: true
+      - Annotations:
+        - C/C++ Occurances: RGB(64, 0, 64)
+        - C/C++ Write Occurances: RGB(128, 0, 255)
+        - Search Results: RGB(83, 58, 88)
+      - Spelling:
+        - Platform Dictionary: English (United Kingdom)
+        - Encoding: Default (UTF-8)
   - Workspace:
-   - Text file encoding: Other: UTF-8
+    - Text file encoding: Other: UTF-8
  -C/C++:
-  - Build:
-   - Console:
-    - Output text color: white
-  - Code Style:
-   - Formatter:
-    - Custom Profile: (based on CCS)
-	 - Indentation:
-	  - Tab policy: Spaces only
-	  - Statements within 'switch' body: true
-	 - Control Statements:
-	  - Insert new line before 'else' in an 'if' statement: true
-	  - Keep simple 'if' on one line: true
-  - Editor:
-   - Appearance color options:
-    - Inactive code highlight: RGB(41, 41, 41)
-   - Documentation tool comments:
-    - workspace default: Doxygen
+   - Build:
+     - Console:
+       - Output text color: white
+   - Code Style:
+     - Formatter:
+       - Custom Profile: (based on CCS)
+	       - Indentation:
+	         - Tab policy: Spaces only
+	         - Statements within 'switch' body: true
+	       - Control Statements:
+	         - Insert new line before 'else' in an 'if' statement: true
+	         - Keep simple 'if' on one line: true
+   - Editor:
+     - Appearance color options:
+       - Inactive code highlight: RGB(41, 41, 41)
+       - Documentation tool comments:
+         - workspace default: Doxygen
 
 ##Adjustments to Support Packages
 
