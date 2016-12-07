@@ -58,7 +58,7 @@ the ControlSUITE materials.
      - Colors and Fonts:
        - Match highlight background color: RGB(80, 97, 103)
        - Ignored Resource (Foreground): RGB(128, 128, 128)
-       - Uncommited Change (Foreground): RGB(221, 221, 221)
+       - Uncommited Change (Foreground): RGB(255, 128, 128)
   - Editors:
     - Text Editors:
       - Insert spaces for tabs: true
