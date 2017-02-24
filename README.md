@@ -56,9 +56,9 @@ the ControlSUITE materials.
    - Appearance:
      - Theme: Dark
      - Colors and Fonts:
-       - Basic
+       - Basic:
          - Match highlight background color: RGB(80, 97, 103)
-       - Git
+       - Git:
          - Diff Removed (Foreground) : RGB(218, 218, 218)
          - Ignored Resource (Foreground): RGB(128, 128, 128)
          - Uncommited Change (Foreground): RGB(255, 128, 128)
