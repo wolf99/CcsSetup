@@ -114,8 +114,8 @@ the ControlSUITE materials.
   prevent duplicate definitions.
 
 ###F2802x Driver Library
-  - The device support driverlib.lin requires rebuilding with the correct flash
- wait states set in the file `flash.c` as follows:
+  - The device support driverlib.lin requires rebuilding with the correct flash 
+wait states set in the file `flash.c` as follows:
     - Paged wait state  = 2
     - Random wait state = 2
     - OTP wait state    = 2
