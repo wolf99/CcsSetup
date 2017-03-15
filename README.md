@@ -1,7 +1,7 @@
-#TI Code Composer Studio Settings & Preferences
+# TI Code Composer Studio Settings & Preferences
 This helps me get the IDE back to the way I prefer it after a reinstall.
 
-##Also install
+## Also install
  - ControlSUITE (and restart CCS)
  - MSP430Ware (use standalone installer then restart CCS)
  - UniFlash
@@ -9,11 +9,11 @@ This helps me get the IDE back to the way I prefer it after a reinstall.
 Make sure to use the older CCS Resource Explorer. The newer one does not pick-up
 the ControlSUITE materials.
 
-##Plugins
+## Plugins
  - Eclox (available on the Eclipse marketplace)
 
-##Perspectives
-####CCS Edit
+## Perspectives
+#### CCS Edit
   - left-side:
     - Project Explorer
     - Target Configurations
@@ -30,7 +30,7 @@ the ControlSUITE materials.
      - Advice
      - Console
   
-####CCS Debug
+#### CCS Debug
   - left-side:
     - Project Explorer
     - Target Configurations
@@ -51,7 +51,7 @@ the ControlSUITE materials.
       - Disassembly
       - Memory Browser
        
-##Preferences
+## Preferences
   - General:
     - Appearance:
       - Theme: Dark
@@ -102,18 +102,18 @@ the ControlSUITE materials.
         - Documentation tool comments:
           - workspace default: Doxygen
 
-##Adjustments to Support Packages
+## Adjustments to Support Packages
 
-###Digital Power Library
+### Digital Power Library
   - The function `DLOG_BuffInit()` in the file DPlib.h uses poor parameter types,
   the function should be commented out if not used, or native types used.
  
-###IQ Math Library
+### IQ Math Library
   - For TEST purposes, if `IQmathLib_helper.h` is used then the` FLOAT_MATH` 
   version of `_IQsat()` (ln #3759) of IQmathLib.h should be commented out to 
   prevent duplicate definitions.
 
-###F2802x Driver Library
+### F2802x Driver Library
   - The device support driverlib.lin requires rebuilding with the correct flash 
 wait states set in the file `flash.c` as follows:
     - Paged wait state  = 2
@@ -130,7 +130,7 @@ wait states set in the file `flash.c` as follows:
   See [this e2e thread][2] for more information.
  
  
-###Ramfuncs Locations
+### Ramfuncs Locations
   - The linker command file should define the ramfuncs locations in SECTIONS as 
   follows:
   
