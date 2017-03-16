@@ -83,7 +83,7 @@ the ~ControlSUITE~ newer version MSP430 materials.
           - Encoding: Default (UTF-8)
     - Workspace:
       - Text file encoding: Other: UTF-8
-  - C/C++:
+  - C/C++: (Show advanced settings)
     - Build:
       - Console:
         - Output text color: white
