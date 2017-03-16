@@ -118,7 +118,7 @@ the ~ControlSUITE~ newer version MSP430 materials.
 wait states set in the file `flash.c` as follows:
     - Paged wait state  = 2
     - Random wait state = 2
-    - OTP wait state    = 2
+    - OTP wait state    = 3
   
   See [this e2e thread][1] for how to rebuild the library after changes are made.
   
@@ -172,6 +172,6 @@ wait states set in the file `flash.c` as follows:
   extern uint16_t RamfuncsLoadEnd;
   ```
 
-[1]: https://e2e.ti.com/support/microcontrollers/c2000/f/171/t/557285 "e2e thread"
+[1]: https://e2e.ti.com/support/microcontrollers/c2000/f/171/p/377175/1333418 "e2e thread"
 [2]: https://e2e.ti.com/support/microcontrollers/c2000/f/171/t/557285 "e2e thread"
 
