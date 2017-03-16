@@ -7,7 +7,7 @@ This helps me get the IDE back to the way I prefer it after a reinstall.
  - UniFlash
  
 Make sure to use the older CCS Resource Explorer. The newer one does not pick-up
-the ControlSUITE materials.
+the ~ControlSUITE~ newer version MSP430 materials.
 
 ## Plugins
  - Eclox (available on the Eclipse marketplace)
